@@ -113,6 +113,7 @@
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:indeterminateDrawable="@drawable/progress_indeterminate_anim_medium_material"
             android:layout_marginBottom="32dp" />
 
     </LinearLayout>
