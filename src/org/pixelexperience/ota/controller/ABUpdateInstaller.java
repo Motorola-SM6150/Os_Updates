@@ -211,7 +211,7 @@ class ABUpdateInstaller {
             }
         }
 
-        mUpdateEngine.setPerformanceMode(true);
+//        mUpdateEngine.setPerformanceMode(true);
 
         String zipFileUri = "file://" + file.getAbsolutePath();
         mUpdateEngine.applyPayload(zipFileUri, offset, 0, headerKeyValuePairs);
